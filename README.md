@@ -1,29 +1,32 @@
-Ex04 Places Around Me
-Date:22/5/2025
-AIM
+# Ex04 Places Around Me
+## Date:22/5/2025 
+
+## AIM
 To develop a website to display details about the places around my house.
 
-DESIGN STEPS
-STEP 1
+## DESIGN STEPS
+
+### STEP 1
 Create a Django admin interface.
 
-STEP 2
+### STEP 2
 Download your city map from Google.
 
-STEP 3
-Using <map> tag name the map.
+### STEP 3
+Using ```<map>``` tag name the map.
 
-STEP 4
-Create clickable regions in the image using <area> tag.
+### STEP 4
+Create clickable regions in the image using ```<area>``` tag.
 
-STEP 5
+### STEP 5
 Write HTML programs for all the regions identified.
 
-STEP 6
+### STEP 6
 Execute the programs and publish them.
 
-CODE
+## CODE
 ```
+
 (MAIN IMAGE MAP)
 <!DOCTYPE html>
 <html>
@@ -269,160 +272,29 @@ CODE
 </body>
 
 </html>
-(RESTAURENT 1 HTML)
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>cappuccino</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .cover {
-            width: 1448px;
-            height: 780px;
-            border: 5px solid #000000;
-            background-color: #138af2;
-            display: block;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 30px;
-            background-image: url(pexels-jayoke-851555.jpg);
-            background-size: cover;
-        }
-        
-        .menu {
-            font-size: 50px;
-            display: inline-block;
-            font-weight: 600;
-            color: rgb(222, 15, 15);
-        }
-        
-        .menu1 {
-            font-size: 40px;
-            display: inline-block;
-            color: rgb(22, 34, 203);
-            font-weight: 600;
-        }
-        
-        .title {
-            font-size: 80px;
-            color: rgb(240, 21, 21);
-            font-weight: 600;
-        }
-        
-        .title1 {
-            font-size: 50px;
-            color: rgb(0, 255, 251);
-            font-weight: 600;
-        }
-        
-        .home {
-            height: 4px;
-        }
-        
-        .body {
-            font-family: "Times New Roman", Georgia, Serif;
-        }
-    </style>
-</head>
-
-<body bgcolor="black">
-    <div class="cover">
-        <h1 class="title">SPECIAL CAPPUCCINO</h1><br>
-        <div class="home">
-            <h1 class="title1"> A Special Cappaccino <br><br>ONLY $16</h1>
-            <p class="menu1">DELICIOUS WITH US!</p><br>
-            <p class="menu">Just click "place order" to get a delicious cappuccino</p>
-            <br>
-            <div class="menu"> <a href="new website 2.html">PLACE ORDER</a></li>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
-(RESTAURENT 2 HTML)
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>hot cafe</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .cover {
-            width: 1445px;
-            height: 780px;
-            border: 5px solid #000000;
-            background-color: #000000;
-            display: block;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 30px;
-            background-image: url(pexels-decha-huayyai-386244-1036444.jpg);
-            background-size: cover;
-        }
-        
-        .menu {
-            font-size: 50px;
-            display: inline-block;
-            font-weight: 600;
-            color: rgb(6, 196, 22);
-        }
-        
-        .menu1 {
-            font-size: 50px;
-            display: inline-block;
-            color: rgb(212, 14, 14);
-            font-weight: 600;
-        }
-        
-        .title {
-            font-size: 80px;
-            color: rgb(21, 0, 255);
-            font-weight: 600;
-        }
-        
-        .title1 {
-            font-size: 40px;
-            color: rgb(0, 217, 255);
-            font-weight: 600;
-        }
-        
-        .home {
-            height: 4px;
-        }
-        
-        .body {
-            font-family: "Times New Roman", Georgia, Serif;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="cover">
-        <h1 class="title">YOUR ORDER PLACED !</h1>
-        <div class="home">
-            <h1 class="title1"> A Special Cappaccino <br>
-                <BR>FOR YOU</h1>
-            <p class="menu1">ENJOY YOUR CAPPACCINO !</p>
-            <BR>
-            <p class="menu">Thank you for contacting us </p>
-            <br>
-            <p class="menu1">THANK YOU!</p>
-        </div>
-    </div>
-    </div>
-</body>
-
-</html>
 ```
-OUTPUT
-Screenshot 2024-12-05 191037 Screenshot 2024-12-05 191119 Screenshot 2024-12-05 191201 Screenshot 2024-12-05 194803 Screenshot 2024-12-05 194820 Screenshot 2024-12-05 194837 Screenshot 2024-12-05 192052 Screenshot 2024-12-05 192343 Screenshot 2024-12-05 192910
 
-RESULT
+
+
+## OUTPUT
+
+![392890033-b101886a-0b84-4595-89fc-dc59da1afcc2](https://github.com/user-attachments/assets/cb0c0da7-f46e-4bf5-bb1b-d8a07310d97a)
+![392890086-802e133e-24bc-4f30-93de-f67f2e0798bd](https://github.com/user-attachments/assets/8c0cc461-0764-4645-aa07-1d182eab28ad)
+![392890121-74f4bb3f-fc21-46fc-a188-44d9fd87567a](https://github.com/user-attachments/assets/9a45614a-c84b-4feb-931f-ce9dd6b77183)
+![392890188-cbd42d67-0458-4dcf-a616-56f74a170d6e](https://github.com/user-attachments/assets/6b0ee3cb-39d1-4de2-939f-103c9938c5ce)
+
+
+![392890588-4cb83033-96e8-4ad5-b97e-8a136c1db2b6](https://github.com/user-attachments/assets/62085d34-d9bc-4e77-839d-a96fc913ab0b)
+![392890621-88f56748-a005-4819-8855-03c7222af95c](https://github.com/user-attachments/assets/4995d7be-7b46-4afb-8d92-abdb6d833dc8)
+![392890660-bb49f926-e61c-4c99-af04-df918c679cdb](https://github.com/user-attachments/assets/95b56039-8f6a-47b5-893b-68c385700783)
+
+
+
+
+
+
+
+
+## RESULT
 The program for implementing image maps using HTML is executed successfully.
